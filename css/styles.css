@@ -1,0 +1,177 @@
+/* fonts */
+
+@font-face {
+  font-family: 'poppins';
+  src: url('fonts/poppins/poppins-regular-webfont.woff2') format('woff2'),
+    url('fonts/poppins/poppins-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('fonts/poppins/poppins-bold-webfont.woff2') format('woff2'),
+    url('fonts/poppins/poppins-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'raleway';
+  src: url('fonts/raleway/raleway-regular-webfont.woff2') format('woff2'),
+    url('fonts/raleway/raleway-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'raleway';
+  src: url('fonts/raleway/raleway-bold-webfont.woff2') format('woff2'),
+    url('fonts/raleway/raleway-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* style starts here! */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 2050px;
+}
+
+body {
+  font-family: 'poppins';
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.navigation img {
+  width: 80px;
+  height: 25px;
+}
+
+.nav-items {
+  color: #fff;
+}
+
+.nav-items ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items ul li {
+  margin: 0 0.6rem;
+}
+
+.hire-me {
+  background: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  background-color: #0093e9;
+  background-image: linear-gradient(
+    160deg,
+    #0093e9 0%,
+    #80d0c7 50%,
+    #ffffff 100%
+  );
+  margin-top: -3rem;
+}
+
+.hero-img img {
+  width: 300px;
+  height: 150px;
+}
+
+.hero-main img {
+  margin-top: -20rem;
+}
+
+/* Packages */
+
+.packages {
+  width: 80%;
+  margin: auto;
+}
+
+.packages h3 {
+  text-align: center;
+}
+
+.packages hr {
+  width: 5rem;
+}
+
+.package-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  border-radius: 5px;
+  padding: 0.75rem 0.5rem;
+  margin: 5rem 0.75rem;
+  box-shadow: -1px 10px 6px -3px rgba(0, 0, 0, 0.72);
+  -webkit-box-shadow: -1px 10px 6px -3px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: -1px 10px 6px -3px rgba(0, 0, 0, 0.72);
+}
+
+.card button {
+  background: #0093e9;
+  border-radius: 30px;
+  border: 0;
+  outline: 0;
+  padding: 0.5rem 0.75rem;
+}
+
+/* Start */
+
+.start {
+  background-color: #0093e9;
+  background-image: linear-gradient(
+    160deg,
+    #0093e9 0%,
+    #80d0c7 50%,
+    #ffffff 100%
+  );
+  padding: 4rem 0;
+  color: #fff;
+}
+
+.start hr {
+  width: 15rem;
+}
